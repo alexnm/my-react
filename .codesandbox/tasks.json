@@ -1,0 +1,213 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "build": {
+      "name": "build",
+      "command": "yarn build",
+      "runAtStart": false
+    },
+    "build-combined": {
+      "name": "build-combined",
+      "command": "yarn build-combined",
+      "runAtStart": false
+    },
+    "build-for-devtools": {
+      "name": "build-for-devtools",
+      "command": "yarn build-for-devtools",
+      "runAtStart": false
+    },
+    "build-for-devtools-dev": {
+      "name": "build-for-devtools-dev",
+      "command": "yarn build-for-devtools-dev",
+      "runAtStart": false
+    },
+    "build-for-devtools-prod": {
+      "name": "build-for-devtools-prod",
+      "command": "yarn build-for-devtools-prod",
+      "runAtStart": false
+    },
+    "linc": {
+      "name": "linc",
+      "command": "yarn linc",
+      "runAtStart": false
+    },
+    "lint": {
+      "name": "lint",
+      "command": "yarn lint",
+      "runAtStart": false
+    },
+    "lint-build": {
+      "name": "lint-build",
+      "command": "yarn lint-build",
+      "runAtStart": false
+    },
+    "extract-errors": {
+      "name": "extract-errors",
+      "command": "yarn extract-errors",
+      "runAtStart": false
+    },
+    "postinstall": {
+      "name": "postinstall",
+      "command": "yarn postinstall",
+      "runAtStart": false
+    },
+    "debug-test": {
+      "name": "debug-test",
+      "command": "yarn debug-test",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "yarn test",
+      "runAtStart": true
+    },
+    "test-stable": {
+      "name": "test-stable",
+      "command": "yarn test-stable",
+      "runAtStart": false
+    },
+    "test-www": {
+      "name": "test-www",
+      "command": "yarn test-www",
+      "runAtStart": false
+    },
+    "test-classic": {
+      "name": "test-classic",
+      "command": "yarn test-classic",
+      "runAtStart": false
+    },
+    "test-www-variant": {
+      "name": "test-www-variant",
+      "command": "yarn test-www-variant",
+      "runAtStart": false
+    },
+    "test-prod-www": {
+      "name": "test-prod-www",
+      "command": "yarn test-prod-www",
+      "runAtStart": false
+    },
+    "test-prod-www-variant": {
+      "name": "test-prod-www-variant",
+      "command": "yarn test-prod-www-variant",
+      "runAtStart": false
+    },
+    "test-persistent": {
+      "name": "test-persistent",
+      "command": "yarn test-persistent",
+      "runAtStart": false
+    },
+    "debug-test-persistent": {
+      "name": "debug-test-persistent",
+      "command": "yarn debug-test-persistent",
+      "runAtStart": false
+    },
+    "test-prod": {
+      "name": "test-prod",
+      "command": "yarn test-prod",
+      "runAtStart": false
+    },
+    "debug-test-prod": {
+      "name": "debug-test-prod",
+      "command": "yarn debug-test-prod",
+      "runAtStart": false
+    },
+    "test-prod-build": {
+      "name": "test-prod-build",
+      "command": "yarn test-prod-build",
+      "runAtStart": false
+    },
+    "test-build": {
+      "name": "test-build",
+      "command": "yarn test-build",
+      "runAtStart": false
+    },
+    "test-build-prod": {
+      "name": "test-build-prod",
+      "command": "yarn test-build-prod",
+      "runAtStart": false
+    },
+    "test-build-devtools": {
+      "name": "test-build-devtools",
+      "command": "yarn test-build-devtools",
+      "runAtStart": false
+    },
+    "debug-test-build-devtools": {
+      "name": "debug-test-build-devtools",
+      "command": "yarn debug-test-build-devtools",
+      "runAtStart": false
+    },
+    "test-dom-fixture": {
+      "name": "test-dom-fixture",
+      "command": "yarn test-dom-fixture",
+      "runAtStart": false
+    },
+    "flow": {
+      "name": "flow",
+      "command": "yarn flow",
+      "runAtStart": false
+    },
+    "flow-ci": {
+      "name": "flow-ci",
+      "command": "yarn flow-ci",
+      "runAtStart": false
+    },
+    "prettier": {
+      "name": "prettier",
+      "command": "yarn prettier",
+      "runAtStart": false
+    },
+    "prettier-all": {
+      "name": "prettier-all",
+      "command": "yarn prettier-all",
+      "runAtStart": false
+    },
+    "version-check": {
+      "name": "version-check",
+      "command": "yarn version-check",
+      "runAtStart": false
+    },
+    "merge-fork": {
+      "name": "merge-fork",
+      "command": "yarn merge-fork",
+      "runAtStart": false
+    },
+    "replace-fork": {
+      "name": "replace-fork",
+      "command": "yarn replace-fork",
+      "runAtStart": false
+    },
+    "publish-prereleases": {
+      "name": "publish-prereleases",
+      "command": "yarn publish-prereleases",
+      "runAtStart": false
+    },
+    "download-build": {
+      "name": "download-build",
+      "command": "yarn download-build",
+      "runAtStart": false
+    },
+    "download-build-for-head": {
+      "name": "download-build-for-head",
+      "command": "yarn download-build-for-head",
+      "runAtStart": false
+    },
+    "download-build-in-codesandbox-ci": {
+      "name": "download-build-in-codesandbox-ci",
+      "command": "yarn download-build-in-codesandbox-ci",
+      "runAtStart": false
+    },
+    "check-release-dependencies": {
+      "name": "check-release-dependencies",
+      "command": "yarn check-release-dependencies",
+      "runAtStart": false
+    }
+  }
+}
